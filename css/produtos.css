@@ -1,0 +1,179 @@
+
+.introducao-produtos{
+    background: url(../img/bg-produtos.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.nav-produtos{
+    padding: 60px 0 0 0;
+}
+
+.nav-produtos h2{
+    font-size: 36px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 28vh;
+    margin-bottom: -56px;
+    letter-spacing: .1em;
+}
+
+.nav-produtos h2:before, .nav-produtos h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 6px auto 10px auto;
+} 
+
+.produto-icone{
+    background-color: black;
+    padding: 70px 0;
+}
+
+.produto-icone img{
+    margin: 0 auto;
+}
+
+.box-passeio{
+    background-color: black;
+    
+    
+}
+.box-passeio p{
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 30px 40px;
+}
+
+.box-passeio ul li{
+    background-color:#fec63e;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    
+    line-height: 20px;
+    float: left;
+    width: 229px;
+    height: 49px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.box-passeio ul li:nth-child(1), .box-passeio ul li:nth-child(2){
+    margin-bottom: 2px;
+}
+
+.box-passeio ul li:nth-child(even){
+    margin-left:2px;
+}
+
+.formulario{
+    margin-top: 60px;
+    background: black;
+    padding:40px 0;
+}
+
+.formulario h1{
+    font-size: 24px;
+    color: #fec63e;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    left: 38vh;
+    letter-spacing: .1em;
+   
+}
+
+.formulario h1:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px auto 10px auto;
+} 
+
+.formulario form{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFF;
+    padding:20px 0;
+    width: 90%;
+   
+    
+}
+form div + div {
+    margin-top: 1em;
+    
+}
+.formulario input, textarea{
+    width: 90%;
+    font-size: 14px;
+    border: 4px solid #fec63e;
+    background: black;
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.formulario input{
+    height: 6vh;
+    outline: none;
+}
+
+.formulario textarea{
+    height: 20vh;
+}
+
+.formulario button{
+    background: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    
+}
+.produtos-dados{
+    
+    padding: 25px 0;
+    
+    color: white;
+    
+}
+.produtos-dados h2{
+    letter-spacing: .05em;
+    color: #fec63e;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.produtos-dados ul li{
+    width: 85%;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding:5px 20px;
+    margin-top: 10px;
+    
+}
+
+.produtos-dados p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.produtos-dados .text{
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.produtos-dados ul li:nth-child(odd){
+    background-color: rgb(36, 36, 36);
+}
+
